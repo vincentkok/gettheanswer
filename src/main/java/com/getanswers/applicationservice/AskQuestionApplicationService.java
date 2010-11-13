@@ -1,4 +1,4 @@
-package applicationservice;
+package com.getanswers.applicationservice;
 
 import com.getanswers.domain.model.Question;
 

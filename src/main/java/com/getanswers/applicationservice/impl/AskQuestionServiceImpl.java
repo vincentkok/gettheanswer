@@ -1,7 +1,7 @@
-package applicationservice.impl;
+package com.getanswers.applicationservice.impl;
 
-import applicationservice.AskQuestionApplicationService;
 
+import com.getanswers.applicationservice.AskQuestionApplicationService;
 import com.getanswers.domain.model.Question;
 import com.getanswers.domain.repository.QuestionRepository;
 
