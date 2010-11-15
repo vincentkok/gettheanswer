@@ -1,0 +1,12 @@
+usePlugin 'java'
+usePlugin 'eclipse'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testCompile group: 'org.testng', name: 'testng', version: '5.14'
+}
+
+version = '0.1-SNAPSHOT'

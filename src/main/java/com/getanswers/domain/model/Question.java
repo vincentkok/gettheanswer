@@ -29,10 +29,6 @@ package com.getanswers.domain.model;
  *  * Assertions
  *  
  *  * Start with test
- *  * 
- *  
- *  
- * 
  * 
  * @author vkok
  *
