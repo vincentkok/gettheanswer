@@ -1,9 +1,10 @@
-package com.getanswers.applicationservice.impl;
+package nl.vincentkok.getanswers.applicationservice.impl;
 
 
-import com.getanswers.applicationservice.AskQuestionApplicationService;
-import com.getanswers.domain.model.Question;
-import com.getanswers.domain.repository.QuestionRepository;
+import nl.vincentkok.getanswers.applicationservice.AskQuestionApplicationService;
+import nl.vincentkok.getanswers.domain.model.Question;
+import nl.vincentkok.getanswers.domain.repository.QuestionRepository;
+
 
 public class AskQuestionServiceImpl implements AskQuestionApplicationService {
 

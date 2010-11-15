@@ -1,6 +1,6 @@
-package com.getanswers.domain.repository;
+package nl.vincentkok.getanswers.domain.repository;
 
-import com.getanswers.domain.model.Question;
+import nl.vincentkok.getanswers.domain.model.Question;
 
 public interface QuestionRepository {
 

@@ -1,4 +1,4 @@
-package com.getanswers.applicationservice;
+package nl.vincentkok.getanswers.applicationservice;
 
 public interface SearchQuestionApplicationService {
 

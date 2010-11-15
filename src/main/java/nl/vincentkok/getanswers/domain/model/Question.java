@@ -1,4 +1,4 @@
-package com.getanswers.domain.model;
+package nl.vincentkok.getanswers.domain.model;
 
 
 /**

@@ -1,9 +1,10 @@
-package com.getanswer.domain.model;
+package nl.vincentkok.getanswer.domain.model;
+
+import nl.vincentkok.getanswers.domain.model.Question;
 
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-import com.getanswers.domain.model.Question;
 
 public class QuestionTest {
 
