@@ -26,4 +26,8 @@ public class AskQuestionServiceImpl implements AskQuestionApplicationService {
 		m_questionRepository.save(question);
 		return question;
 	}
+	
+	public void setQuestionRepository(QuestionRepository questionRepository) {
+		m_questionRepository = questionRepository;
+	}
 }

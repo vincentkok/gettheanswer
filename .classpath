@@ -10,5 +10,6 @@
   <classpathentry kind="lib" path="C:/Documents and Settings/vkok/.gradle/cache/com.google.inject/guice/jars/guice-2.0.jar"/>
   <classpathentry kind="lib" path="C:/Documents and Settings/vkok/.gradle/cache/junit/junit/jars/junit-3.8.1.jar"/>
   <classpathentry kind="lib" path="C:/Documents and Settings/vkok/.gradle/cache/org.beanshell/bsh/jars/bsh-2.0b4.jar"/>
+  <classpathentry kind="lib" path="C:/Documents and Settings/vkok/.gradle/cache/org.mockito/mockito-all/jars/mockito-all-1.8.5.jar"/>
   <classpathentry kind="lib" path="C:/Documents and Settings/vkok/.gradle/cache/org.testng/testng/jars/testng-5.14.jar"/>
 </classpath>
