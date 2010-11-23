@@ -14,15 +14,15 @@ public class QuestionTest {
 	public void createQuestionTest() {
 		Question question = new Question(HOW_LONG_IS_A_CHINESE);
 		Assert.assertEquals(question.getQuestion(), HOW_LONG_IS_A_CHINESE);
-		Assert.assertEquals(question.getNrOfTimesAsked(), 1);
+		Assert.assertEquals(question.getNrOfTimesAsked(), 0);
 	}
 	
 	@Test
-	public void increaseCountTest() {
+	public void askQuestionTest() {
 		Question question = new Question(HOW_LONG_IS_A_CHINESE);
-		question.askedForAgain();
+		question.ask();
 		
-		Assert.assertEquals(question.getNrOfTimesAsked(), 2);
+		Assert.assertEquals(question.getNrOfTimesAsked(), 1);
 	}
 	
 	//Add count per term

@@ -45,7 +45,7 @@ public class Question {
 		super();
 		m_id = 1;
 		m_question = question;
-		m_nrOfTimesAsked = 1;
+		m_nrOfTimesAsked = 0;
 	}
 
 	public long getId() {
@@ -60,7 +60,7 @@ public class Question {
 		return m_nrOfTimesAsked;
 	}
 	
-	public void askedForAgain() {
+	public void ask() {
 		m_nrOfTimesAsked++;
 	}
 }

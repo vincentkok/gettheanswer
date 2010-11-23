@@ -19,9 +19,9 @@ public class AskQuestionServiceImpl implements AskQuestionApplicationService {
 		//Asked for again is handled by the domain.
 		if (question == null) {
 			question = new Question(questionToAsk);
-		} else {
-			question.askedForAgain();
 		}
+		
+		question.ask();
 		
 		m_questionRepository.save(question);
 		return question;

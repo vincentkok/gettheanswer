@@ -34,6 +34,8 @@ public class AskQuestionServiceImplTest {
 	@Test
 	public void askExistingQuestion() {
 		Question questionToReturn = new Question(QUESTION_STRING);
+		questionToReturn.ask();
+		
 		when(m_questionRepository.getObject(QUESTION_STRING)).thenReturn(questionToReturn);
 		
 		Question existingQuestion = m_askQuestionServiceImpl.askQuestion(QUESTION_STRING);
