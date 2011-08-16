@@ -35,9 +35,9 @@ package nl.vincentkok.getanswers.domain.model;
  */
 public class Question {
 	
-	private long m_id;
+	private final long m_id;
 	
-	private String m_question;
+	private final String m_question;
 	
 	private int m_nrOfTimesAsked;
 
